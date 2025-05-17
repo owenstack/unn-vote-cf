@@ -4,7 +4,7 @@
  */
 {
 	"$schema": "node_modules/wrangler/config-schema.json",
-	"name": "verifind",
+	"name": "unn-vote",
 	"compatibility_date": "2025-04-04",
 	"main": "./workers/app.ts",
 	"compatibility_flags": ["nodejs_compat"],
@@ -14,8 +14,8 @@
 	"d1_databases": [
 		{
 			"binding": "DATABASE",
-			"database_name": "verifind",
-			"database_id": "f9076d58-c559-4b26-9300-8606346a9006"
+			"database_name": "unn-db",
+			"database_id": "8b59d95d-ddf9-4dd1-9063-7e136521b9ff"
 		}
 	]
 	/**

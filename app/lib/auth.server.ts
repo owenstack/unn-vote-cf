@@ -22,19 +22,6 @@ export const auth = betterAuth({
 			clientSecret: env.GOOGLE_CLIENT_SECRET,
 		},
 	},
-	user: {
-		additionalFields: {
-			onboarded: {
-				type: "boolean",
-				default: false,
-				input: true,
-			},
-			mode: {
-				type: "string",
-				input: true,
-			},
-		},
-	},
 	plugins: [
 		admin(),
 		// emailOTP({

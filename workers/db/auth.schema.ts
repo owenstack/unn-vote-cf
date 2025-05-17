@@ -9,8 +9,6 @@ export const user = sqliteTable("user", {
 		.default(false),
 	image: text("image"),
 	role: text("role"),
-	mode: text("mode"),
-	onboarded: integer("onboarded", { mode: "boolean" }).notNull().default(false),
 	banned: integer("banned", { mode: "boolean" }),
 	banReason: text("banReason"),
 	banExpires: integer("banExpires", { mode: "timestamp" }),
